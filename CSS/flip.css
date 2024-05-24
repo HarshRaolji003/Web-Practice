@@ -1,0 +1,27 @@
+.container {
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 2px solid chocolate;
+    margin-inline: auto;
+}
+
+.img {
+    padding: 2rem;
+    max-width: 100%;
+    max-width: auto;
+    /* width: 80%; */
+    background-color: brown;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    object-fit: cover;
+    /* padding: 2rem; */
+    width: 720px;
+    /* max-width: min-content; */
+
+}
+
+img:hover {
+    transform: rotateX('180');
+}

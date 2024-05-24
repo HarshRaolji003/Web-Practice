@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+.container{
+    height: 250px;
+    width: 75%;
+    background-color: white;
+    position: absolute;
+    left: 7rem;
+    top: 5rem;
+}
+.circle{
+    padding: 2rem;
+    margin: 2rem;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    background-color: aqua;
+    border-radius: 50%;
+    animation: 3s linear 2s infinite running slidein;
+}
+
+@keyframes slidein {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+
+}
+@keyframes slidein {
+    0%{ left: 0px;}
+    100%{left:70%}
+
+}

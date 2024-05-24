@@ -1,0 +1,51 @@
+.main{
+    max-width: fit-content;
+    margin-inline: auto;
+    border: 2px solid lightblue;
+}
+/* First Div */
+.parent{
+    outline: 2px solid black;
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+/* Second Div */
+.container{
+    border: 2px dashed black;
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+    display: grid;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border-radius: 50%;
+    place-self: center;
+}
+/* Third Div */
+.first{
+    border: 2px solid black;
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+}
+.second{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
