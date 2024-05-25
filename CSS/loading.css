@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    
+}
+.loader{
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgba(165, 42, 42, 0.725);
+    border-radius: 50%;
+    border-top: 10px solid rgb(57, 4, 4);
+    animation: loading 1s steps(4)  infinite ;
+}
+
+@keyframes loading{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
